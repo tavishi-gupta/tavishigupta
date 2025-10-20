@@ -1,1 +1,76 @@
-<!doctype html><title>ok</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tavishi Gupta — Portfolio</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="theme">
+  <header class="site-header">
+    <a class="brand" href="index.html">TG</a>
+    <nav class="top-nav">
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Coding Projects</a>
+      <a href="robotics.html">Robotics</a>
+      <a href="lybotics.html">LYBOTICS</a>
+      <a href="community.html">Giving Back</a>
+      <a href="training.html">Python/Java Training</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <img class="portrait" src="assets/tavishi-pic.jpeg" alt="Tavishi Gupta" />
+    <div>
+      <h1>Hi, I’m Tavishi — student @ Round Rock High School</h1>
+      <p class="lede">
+        I learn by building — at the intersection of robotics, software, and community impact.
+        My three anchors are <strong>Sharing</strong>, <strong>Caring</strong>, and <strong>Daring</strong>:
+      </p>
+      <ul class="pill-list">
+        <li><span class="pill">Sharing</span> Knowledge multiplies when I teach & publish.</li>
+        <li><span class="pill">Caring</span> Empathy turns teams into communities.</li>
+        <li><span class="pill">Daring</span> Growth starts outside the comfort zone.</li>
+      </ul>
+      <p class="mission"><strong>Mission:</strong> build useful tech, lift others up, and take bold shots that move ideas from “what if” to “it works.”</p>
+      <div class="cta-row">
+        <a class="btn" href="assets/TavishiGuptaResume.docx" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn ghost" href="projects.html">See Projects</a>
+        <a class="btn ghost" href="mailto:tavishigupta888@gmail.com">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Top Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="badges"><span class="badge">Vision</span><span class="badge">Python</span></div>
+          <h3>SmartProductPlacementInVideo</h3>
+          <p>Detects scenes/surfaces and places branded assets contextually.</p>
+          <div class="links"><a class="btn tiny" href="https://github.com/tavishi-gupta/SmartProductPlacementInVideo" target="_blank">Repo</a></div>
+        </article>
+        <article class="card">
+          <div class="badges"><span class="badge">Security</span><span class="badge">Python</span></div>
+          <h3>malware-scanner</h3>
+          <p>Lightweight tools for scanning files and reporting suspicious patterns.</p>
+          <div class="links"><a class="btn tiny" href="https://github.com/tavishi-gupta/malware-scanner" target="_blank">Repo</a></div>
+        </article>
+        <article class="card">
+          <div class="badges"><span class="badge">Web</span><span class="badge">JS</span></div>
+          <h3>CookingWithAI</h3>
+          <p>Clean web UI for AI-assisted recipes and prep steps.</p>
+          <div class="links"><a class="btn tiny" href="https://github.com/tavishi-gupta/CookingWithAI" target="_blank">Repo</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Tavishi Gupta • <a href="mailto:tavishigupta888@gmail.com">tavishigupta888@gmail.com</a>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
